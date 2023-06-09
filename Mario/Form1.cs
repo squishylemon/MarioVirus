@@ -50,6 +50,7 @@ namespace Mario
         // Example usage: call this function when you want to set the volume to 100%
         private void button1_Click(object sender, EventArgs e)
         {
+            PlayMarioMP3();
             timer1.Enabled = true;
             timer2.Enabled = true;
         }
